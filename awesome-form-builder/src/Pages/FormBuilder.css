@@ -1,0 +1,47 @@
+.form-wrapper{
+    height: 500px;
+    overflow-y: auto;
+}
+.formDetialCard.MuiCard-root{
+    margin:0 0 30px 0;
+    background: #f4ffff;
+    padding: 20px;
+    border-radius: 15px;
+}
+.formDetialCard .MuiCardContent-root{
+    padding: 0
+}
+.formDetialCard .MuiCardActions-root{
+    padding: 0
+}
+.formDetialCard .MuiButton-root{
+    background: #0059b2;
+}
+.preview-wrapper{
+    margin-top: 50px;
+}
+.rightCardWrapper .MuiFormLabel-root{
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+.rightCardWrapper{
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #d0d0d0;
+}
+.btn-wrapper{
+margin-left: 30px;
+}
+.loader-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 25%;
+    height: 100vh;
+}
+.add-btn{
+    position: relative;
+    z-index: 9;
+}
